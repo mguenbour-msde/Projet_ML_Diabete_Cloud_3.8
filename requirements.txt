@@ -123,7 +123,7 @@ platformdirs==2.6.2
 pmdarima==1.7.1
 portalocker==2.7.0
 prompt-toolkit==3.0.36
-protobuf==3.20.1
+protobuf==3.19.6
 ptyprocess==0.7.0
 pure-eval==0.2.2
 pyarrow==9.0.0
