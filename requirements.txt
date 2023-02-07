@@ -90,7 +90,7 @@ keras2onnx==1.6.0
 knack==0.10.1
 lightgbm==3.2.1
 locket==1.0.0
-markupsafe==2.0.1
+markupsafe
 matplotlib-inline==0.1.6
 ml-wrappers==0.2.2
 msal==1.20.0
