@@ -156,6 +156,6 @@ tornado==6.2
 traitlets==5.9.0
 wcwidth==0.2.6
 websocket-client==1.5.0
-werkzeug==2.2.0
+werkzeug==2.1.2
 wrapt==1.12.1
 zict==2.2.0
