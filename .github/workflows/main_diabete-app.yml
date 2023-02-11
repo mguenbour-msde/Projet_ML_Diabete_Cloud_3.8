@@ -69,7 +69,4 @@ jobs:
         run: sudo apt-get install -y libgomp1
         
       - name: install libglib
-        run: sudo apt-get install -y libglib-2.0.so.0
-
-      - name: install libgthread
-        run: sudo apt-get install -y libgthread-2.0.so.0
+        run: sudo apt-get install -y libglib2.0-dev
