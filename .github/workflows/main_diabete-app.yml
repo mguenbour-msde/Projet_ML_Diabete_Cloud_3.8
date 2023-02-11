@@ -62,8 +62,11 @@ jobs:
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C5239F5B43F948ADAF2104522F7683E8 }}
 
+      - name: remove libgomp1
+        run: sudo apt-get remove -y libgomp1
+        
       - name: update apt
         run: sudo apt-get update -y
-
+        
       - name: install libgomp1
-        run: sudo apt-get remove -y libgomp1
+        run: sudo apt-get install -y libgomp1
