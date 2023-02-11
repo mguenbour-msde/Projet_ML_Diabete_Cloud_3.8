@@ -30,9 +30,6 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
         
-      - name: Uninstall dataclasses
-        run: pip uninstall -y dataclasses     
-        
       # Optional: Add step to run tests here (PyTest, Django test suites, etc.)
       
       - name: Upload artifact for deployment jobs
@@ -63,4 +60,4 @@ jobs:
         with:
           app-name: 'diabete-app'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B579577981B641F7B407CA6A674DC7B7 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C5239F5B43F948ADAF2104522F7683E8 }}
