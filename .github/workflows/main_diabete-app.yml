@@ -63,7 +63,13 @@ jobs:
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C5239F5B43F948ADAF2104522F7683E8 }}
 
       - name: update apt
-        run: sudo apt-get update
+        run: sudo apt-get update -y
 
       - name: install libgomp1
         run: sudo apt-get install -y libgomp1
+        
+      - name: install libglib2.0-0-dbg
+        run: sudo apt-get install -y libglib2.0-0-dbg
+
+      - name: install libglib2.0-0
+        run: sudo apt-get install -y libglib2.0-0
