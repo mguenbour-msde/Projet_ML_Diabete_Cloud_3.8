@@ -1,2 +1,2 @@
 pip uninstall -y dataclasses
-sudo apt-get install libgomp1
+apt-get install libgomp1
